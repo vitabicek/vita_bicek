@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Multimedija</title>
+</head>
+<body>
+<style>
+        body {
+            background-image: url("slike/pozadina.jpg"); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            color: #000; /* crni tekst */
+            padding: 20px;
+        }
+
+        h1, h2 {
+            color: #ffffff; /* bijeli naslovi */
+            text-shadow: 1px 1px 2px black;
+        }
+
+        p {
+            background-color: rgba(255, 255, 255, 0.7); 
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        audio, video {
+            margin-top: 20px;
+            display: block;
+        }
+
+        img {
+            margin: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+    </style>
+
+
+    <h1>Moji multimedijski sadržaji</h1>
+
+    <h2>Slike</h2>
+
+	<img src="slike/slika2.jpg" width="200" alt="Slika 2">
+	<img src="slike/slika1.jpg" width="200" alt="Slika 1">
+
+    <h2>Video datoteka</h2>
+    <video width="320" height="240" controls>
+	
+         <source src="video/video.mp4" type="video/mp4">
+        Tvoj preglednik ne podržava video.
+    </video>
+
+    <h2>Youtube video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hOkXpKW0GC4"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <h2>Audio zapis</h2>
+    <audio controls>
+        <source src="audio/mojzvuk.mp3" type="audio/mp3">
+        Tvoj preglednik ne podržava audio.
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moja osobna stranica</title>
+    <style>
+        body {
+			background-image: url("slike/pozadina.jpg"); 
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed; 
+			font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+        
+        h3 {
+            color: #16a085;
+        }
+        
+        nav {
+            background-color: #2c3e50;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        nav li {
+            padding: 15px 0;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 15px 20px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #3498db;
+            border-radius: 3px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        q {
+            font-style: italic;
+            color: #7f8c8d;
+            quotes: "„" "“";
+        }
+        
+        q:before {
+            content: open-quote;
+        }
+        
+        q:after {
+            content: close-quote;
+        }
+        
+        ol, ul {
+            margin-bottom: 30px;
+            padding-left: 40px;
+        }
+        
+        ol {
+            list-style-type: decimal;
+        }
+        
+        ul {
+            list-style-type: square;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        b {
+            color: #e74c3c;
+        }
+        
+        i {
+            color: #9b59b6;
+        }
+        
+        mark {
+            background-color: #f1c40f;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .multimedija-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .multimedija-link:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vita Biček</h1>
+    <h2>Dobrodošli na moju osobnu web stranicu</h2>
+    
+    <nav>
+        <ul>
+            <li><a href="https://www.w3schools.com" target="_blank">W3Schools (vanjska poveznica)</a></li>
+            <li><a href="multimedija.html">Multimedijski sadržaji</a></li>
+            <li><a href="dokument.pdf">Refleksija (PDF)</a></li>
+        </ul>
+    </nav>
+    
+    <h2>O meni</h2>
+    <p>
+        Zovem se <b>Vita Biček</b> i student sam <i>Grafičkog fakulteta</i>. 
+        Rođen sam u Pakracu <mark>2005. godine</mark> i od malih nogu me zanima tehnologija.
+        Moj životni moto je: <q>Najveći rizik je ne poduzimati nikakav rizik.</q>
+    </p>
+    
+    <p>
+        Trenutno se bavim vježbanjem u teretani ali glavni fokus mi je na studiranju.
+        <blockquote>
+            "U digitalnom dobu, kreativnost je najvažnija vještina koju možete posjedovati."
+            <br>
+            <small>- John Doe</small>
+        </blockquote>
+    </p>
+    
+    <h3>Glazba koju slušam</h3>
+    <ol>
+        <li>Pop</li>
+        <li>Trap</li>
+        <li>Rap</li>
+        <li>Folk</li>
+    </ol>
+    
+    <h3>Knjige koje čitam</h3>
+    <ul>
+        <li><b>Clean Code</b> - Robert C. Martin</li>
+        <li><i>You Don't Know JS</i> - Kyle Simpson</li>
+        <li>Design Patterns - Erich Gamma</li>
+        <li>Atomic Habits - James Clear</li>
+    </ul>
+    
+    <a href="multimedija.html" class="multimedija-link">Pogledajte moje multimedijske sadržaje &rarr;</a>
+</body>
+</html>
